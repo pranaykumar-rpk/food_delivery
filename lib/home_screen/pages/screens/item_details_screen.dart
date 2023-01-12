@@ -4,7 +4,6 @@ import 'package:food_delivery/home_screen/pages/widgets/item_image_courrosal.dar
 import 'package:food_delivery/home_screen/pages/widgets/item_name_and_description.dart';
 import 'package:food_delivery/home_screen/pages/widgets/item_size_widget.dart';
 
-
 class ItemDetailsScreen extends StatelessWidget {
   const ItemDetailsScreen({super.key});
 
@@ -16,7 +15,7 @@ class ItemDetailsScreen extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment(0, 0),
             end: Alignment(1, -1),
-            stops: [0, 0.5, 1],
+            stops: [0, 0.6, 1],
             colors: [
               Color(0xfff9f9f9),
               Color(0xfff9f9f9),
@@ -48,6 +47,9 @@ class ItemDetailsScreen extends StatelessWidget {
                     height: 20,
                   ),
                   const ItemSizeWidget(),
+                  const SizedBox(
+                    height: 50,
+                  ),
                 ],
               ),
             )),
