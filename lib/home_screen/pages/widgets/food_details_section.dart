@@ -3,7 +3,6 @@ import 'package:food_delivery/home_screen/pages/screens/item_details_screen.dart
 import 'package:food_delivery/home_screen/pages/widgets/common_rating_bar.dart';
 import 'package:food_delivery/home_screen/pages/widgets/distance_and_delivery_time_widget.dart';
 
-
 class FoodDetailsSection extends StatelessWidget {
   const FoodDetailsSection({super.key});
 
@@ -12,7 +11,7 @@ class FoodDetailsSection extends StatelessWidget {
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: const [
